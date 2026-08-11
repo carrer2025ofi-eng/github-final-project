@@ -1,0 +1,20 @@
+Command:
+git branch -a
+
+Output:
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+Command:
+git status
+
+Output:
+On branch bug-fix-revert
+Your branch is up to date with 'origin/bug-fix-revert'.
+
+nothing to commit, working tree clean
